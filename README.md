@@ -18,7 +18,7 @@ The builds should work on distributions that are equivalent to Debian 11 Bullsey
 ## Configuration
 The builds are made using some scripts in Github Actions. If you want to make your own custom server builds with other build options then feel free to fork.
 
-- Built on Debian 11 Bullseye
+- Built on Debian 12 Bookworm (arm64)
 - The latest version of LuaJIT at the time of the build is used and is statically linked with the executable
 - RUN_IN_PLACE is 1
 - cURL is enabled
