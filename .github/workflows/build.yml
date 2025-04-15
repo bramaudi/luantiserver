@@ -6,7 +6,7 @@ on:
 
 jobs:
   linux:
-    runs-on: ubuntu-latest-arm64
+    runs-on: self-hosted
     steps:
       - uses: actions/checkout@v4
 
