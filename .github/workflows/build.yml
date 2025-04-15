@@ -6,11 +6,7 @@ on:
 
 jobs:
   linux:
-    runs-on: ubuntu-latest
-    container:
-      image: debian:bookworm-slim
-      arch: arm64
-      env: { LANG: "C.UTF-8" }
+    runs-on: ubuntu-latest-arm64
     steps:
       - uses: actions/checkout@v4
 
