@@ -10,10 +10,10 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Install deps
-        run: |
-          apt-get update
-          apt-get install -y g++ ninja-build make cmake patch libsqlite3-dev libcurl4-openssl-dev zlib1g-dev libgmp-dev libjsoncpp-dev libzstd-dev libncurses-dev --no-install-recommends
+      # - name: Install deps
+      #   run: |
+      #     apt-get update
+      #     apt-get install -y g++ ninja-build make cmake patch libsqlite3-dev libcurl4-openssl-dev zlib1g-dev libgmp-dev libjsoncpp-dev libzstd-dev libncurses-dev --no-install-recommends
 
       - name: Checkout Minetest src
         uses: actions/checkout@v4
