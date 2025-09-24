@@ -21,9 +21,9 @@ jobs:
       - name: Checkout Minetest src
         uses: actions/checkout@v4
         with:
-          repository: minetest/minetest
+          repository: luanti-org/luanti
           path: luanti
-          ref: 5.13.0
+          ref: master
 
       - name: Checkout LuaJIT src
         uses: actions/checkout@v4
